@@ -1,4 +1,3 @@
-
 "use client";
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
@@ -105,7 +104,7 @@ export default function Hero() {
             <div className="text-center lg:text-left">
               {/* Badge */}
               <div className="hero-text inline-block px-3 py-1.5 bg-indigo-500/20 border border-indigo-400/30 rounded-full mb-6">
-                <span className="text-indigo-300 text-xs font-medium">
+                <span className="text-indigo-400 text-xs font-medium">
                   🚀 Trusted by 10,000+ Companies Worldwide
                 </span>
               </div>
@@ -113,15 +112,15 @@ export default function Hero() {
               <h1 className="hero-text text-3xl md:text-4xl lg:text-5xl font-bold mb-4 leading-tight">
                 Build{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-400">
-                  Amazing
+                  Innovative
                 </span>{" "}
-                Digital Experiences
+                Digital Solutions For the Future
               </h1>
 
               <p className="hero-text text-base md:text-lg text-gray-300 mb-8 leading-relaxed max-w-xl mx-auto lg:mx-0">
-                We create stunning web applications with cutting-edge technology,
-                delivering exceptional performance and user experiences that drive
-                business growth.
+                We create stunning web applications with cutting-edge
+                technology, delivering exceptional performance and user
+                experiences that drive business growth.
               </p>
               {/* Buttons */}
               <div className="hero-text flex flex-col sm:flex-row gap-3 justify-center lg:justify-start items-center">
@@ -145,11 +144,19 @@ export default function Hero() {
 
               {/* Trusted By */}
               <div className="hero-text mt-8">
-                <p className="text-xs text-gray-400 mb-4">Trusted by industry leaders</p>
+                <p className="text-xs text-gray-400 mb-4">
+                  Trusted by industry leaders
+                </p>
                 <div className="flex justify-center lg:justify-start items-center gap-6 opacity-60">
-                  <div className="text-gray-300 font-semibold text-sm">Google</div>
-                  <div className="text-gray-300 font-semibold text-sm">Microsoft</div>
-                  <div className="text-gray-300 font-semibold text-sm">Amazon</div>
+                  <div className="text-gray-300 font-semibold text-sm">
+                    Google
+                  </div>
+                  <div className="text-gray-300 font-semibold text-sm">
+                    Microsoft
+                  </div>
+                  <div className="text-gray-300 font-semibold text-sm">
+                    Amazon
+                  </div>
                 </div>
               </div>
             </div>
@@ -161,15 +168,29 @@ export default function Hero() {
                 <div className="aspect-video bg-gradient-to-br from-indigo-500/20 to-purple-500/20 rounded-2xl flex items-center justify-center">
                   <div className="text-center p-8">
                     <div className="w-20 h-20 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                      <svg
+                        className="w-10 h-10 text-white"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+                        />
                       </svg>
                     </div>
-                    <h3 className="text-white font-semibold text-lg mb-2">Digital Excellence</h3>
-                    <p className="text-gray-300 text-sm">Cutting-edge solutions for modern businesses</p>
+                    <h3 className="text-white font-semibold text-lg mb-2">
+                      Digital Excellence
+                    </h3>
+                    <p className="text-gray-300 text-sm">
+                      Cutting-edge solutions for modern businesses
+                    </p>
                   </div>
                 </div>
-                
+
                 {/* Floating Elements */}
                 <div className="absolute -top-4 -left-4 w-8 h-8 bg-indigo-400 rounded-full opacity-20 animate-pulse"></div>
                 <div className="absolute -bottom-4 -right-4 w-12 h-12 bg-purple-400 rounded-full opacity-20 animate-pulse"></div>

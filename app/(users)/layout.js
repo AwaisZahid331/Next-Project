@@ -1,12 +1,15 @@
 import '../globals.css';
-import Navigation from '@/components/Navigation'
+import ConditionalNav from '@/components/ConditionalNav'
+import { ReduxProvider } from '@/store'
 
 export  default function RootLayout({ children }) {
   return (
     <html>
       <body>
-        <Navigation />
-        {children}
+        <ReduxProvider>
+          <ConditionalNav />
+          {children}
+        </ReduxProvider>
       </body>
     </html>
   );
