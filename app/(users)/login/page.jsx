@@ -57,14 +57,14 @@ export default function LoginPage() {
       } else {
         const data = await res.json().catch(() => ({}));
         setError(data?.error || "Invalid credentials");
+        setLoading(false); 
       }
     } catch {
       setError("Network error");
-    } finally {
       setLoading(false);
     }
   }
-
+  
   return (
     <main
       ref={containerRef}
