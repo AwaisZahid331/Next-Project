@@ -44,6 +44,16 @@ export default function DashboardLayout({ children }) {
             </svg>
             Settings
           </Link>
+
+          <Link
+            href="/dashboard/projects"
+            className="flex items-center gap-3 rounded-lg px-3 py-2 text-slate-300 hover:bg-white/10 hover:text-white transition-all duration-200"
+          >
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 7h18M3 12h18M3 17h18" />
+            </svg>
+            Projects
+          </Link>
         </nav>
 
         {/* Logout Button */}
